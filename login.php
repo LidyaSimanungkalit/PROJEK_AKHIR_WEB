@@ -21,17 +21,19 @@
                 </div>
                 <div class="ikons">
                 <i class="fa-solid fa-lock icon"></i>
-                    <input class="input-field" type="password" name="password" placeholder="Masukan Password Anda" class="input" required>
+                    <input class="input-field" type="password" id="password" name="password" placeholder="Masukan Password Anda" class="input" required>
+                    <span class="show-hide">
+                    <i id="mata" class="fa fa-eye"></i>
+                </span>
                 </div>
-
                 <input type="submit" name="login" value="Masuk  " class="submit"><br><br>
             </form>
-
             <p class="regis">Belum punya akun? <i class="fa-solid fa-arrow-right"></i>
                 <a href="register.php">Daftar?</a>
             </p>
         </div>
     </div>
+    <script src= "js/slide.js"></script>
 </body>
 </html>
 <?php 
@@ -97,7 +99,24 @@ h2{
 
 }
 
+.show-hide{
+    position: absolute;
+    right:460px;
+    bottom:458px;
+    font-size:18px;
+}
+.show-hide i{
+    background-color: #ffffff;
+    cursor: pointer;
+    display: none;
+}
+.show-hide i.hide:before{
+    content: '\f070';
+}
 
+#password:valid ~ .show-hide i{
+    display: block;
+}
 .logo {
     text-decoration:line-through;
     font-size:22px;
@@ -140,4 +159,19 @@ h2{
     text-decoration:none;
 
 }
+
+@media (max-width: 430px) {
+    .container-login {
+    width: 300px;
+    }
+}
+@media (max-width: 638px) {
+    .show-hide{
+    position: absolute;
+    right:60px;
+    bottom:432px;
+    font-size:18px;
+    }
+}
+
 </style>

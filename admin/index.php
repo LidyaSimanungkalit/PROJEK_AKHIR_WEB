@@ -67,15 +67,6 @@
             $jumlah = $rows->num_rows;
           ?>
           <p>Jumlah Data : <?php echo $jumlah ?></p>
-        </article>
-        <article class="card">
-          <h2><i class="fa-solid fa-database"></i> Data Histori</h2>
-          <?php
-            $rows = $db->query('SELECT * FROM tb_histori'); 
-            $jumlah = $rows->num_rows;
-          ?>
-          <p>Jumlah Data : <?php echo $jumlah ?></p>
-        </article>
       </section>
     </div>
 
@@ -97,8 +88,9 @@ body{
    height: 400px;
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
+   justify-content: space-around;
    padding: 25px;
+   padding
 
    
 }
@@ -175,7 +167,7 @@ button{
 .info{
     color:black;
     font-size:22px;
-    padding-left:67px;
+    padding-left:87px;
     margin-top:100px;
 }
 

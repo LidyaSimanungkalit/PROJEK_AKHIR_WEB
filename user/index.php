@@ -56,6 +56,16 @@
     }
     ?>
     </div>
+<div class="footer">
+  <div class="footer-list">
+      <ul>
+          <li><a href="https://wa.me/6281254424739"><i class="fa1 fas fa-phone"></i> Contact</a></li>
+          <li><a href="https://twitter.com/Cnoxerr12345"><i class="fa1 fa-brands fa-twitter"></i> Twiter</a></li>
+          <li><a href="https://www.instagram.com/ash4rr/"><i class="fa1 fa-brands fa-instagram"></i> Instagram</a></li>
+          <img class ="logo2" src="..\img/vel.png" alt="gambarnya logonya"   width="200px">
+      </ul>
+  </div>
+</div>
 
 </body>
 </html>
@@ -73,6 +83,11 @@ body{
 }
 .logo{
     margin-top: -30px;
+    margin-left:12px;
+}
+
+.logo2{
+    margin-top: 25px;
     margin-left:12px;
 }
 .container-card{
@@ -100,7 +115,6 @@ body{
   cursor: pointer;
   width: 50%;
   margin-left: 65px;
-  margin: bottom 55px;
   font-size: 18px;
 }
 
@@ -125,9 +139,6 @@ input[type=text] {
   margin-top: 8px;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
-
-
-  
 }
 
 ul {
@@ -143,6 +154,7 @@ li {
 }
 
 li a {
+  font: size 27px;
   display: block;
   color:black;
   text-align: center;
@@ -170,6 +182,19 @@ button{
   margin-top:100px;
 }
 
+.footer ul {
+  background-color: rgb(46, 44, 44);
+  color: white;
+  margin-top: 120px;
+  height: 95px;
+  padding: 12px;
+}
+.footer-list li a {
+  margin-top:7px;
+  color:white;
+  cursor: pointer;
+  float: right;
+}
 
 table {
   border-collapse: collapse;
@@ -187,8 +212,103 @@ th {
   background-color: #242020;
   color: white;
 }
+@media (max-width: 638px) {
+  .masukan {  
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #145ba3;
+  cursor: pointer;
+  margin-left: -15px;
+  font-size: 18px;
+}
+}
+@media (max-width: 757px) {
+  .masukan {  
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #145ba3;
+  cursor: pointer;
+  margin-left: -15px;
+  font-size: 18px;
+}
+}
+
+@media (max-width: 1021px) {
+  .masukan {  
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #145ba3;
+  cursor: pointer;
+  margin-left: -15px;
+  font-size: 18px;
+}
+}
+@media (min-width: 1194px) {
+  .logo{
+    margin-top: -39px;
+    margin-left:-22px;
+  }
+}
+@media (min-width: 377px) {
+  .logo{
+    margin-top: -99px;
+    margin-left:-22px;
+  }
+  .info{
+    font-size:22px;
+  padding-left:22px;
+  margin-top:100px;
+  }
+  .masukan {  
+  border: none;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #145ba3;
+  cursor: pointer;
+  margin-left: -12px;
+  font-size: 18px;
+}
+
+}
+
+@media (min-width: 916px) {
+  .logo{
+    margin-top: -30px;
+    margin-left:12px;
+  }   
+}
+@media (min-width: 529px) {
+  .logo{
+    margin-top: -42px;
+    margin-left:12px;
+  }   
+}
+
+@media (min-width: 377px) {
+.footer-list li a {
+  flex-wrap: wrap;
+  color:white;
+  font-size:15px;
+  cursor: pointer;
+  float: right;
+}
+}
+@media (min-width: 1187px) {
+.footer-list li a {
+  flex-wrap: wrap;
+  color:white;
+  font-size:19px;
+  cursor: pointer;
+  float: right;
+}
+}
 
 
 </style>
-
-

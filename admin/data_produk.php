@@ -10,14 +10,14 @@
 
 
   if( isset($_POST["cari"])){
-    $nama_dicari = $_POST["keyword"];
-    $tampil = "SELECT *FROM tb_produk WHERE gambar      LIKE '%$nama_dicari%' OR
-                                            nama        LIKE '%$nama_dicari%' OR
-                                            harga       LIKE '%$nama_dicari%' OR
-                                            stok        LIKE '%$nama_dicari%' OR
-                                            desk        LIKE '%$nama_dicari%' OR
-                                            kategori    LIKE '%$nama_dicari%' OR
-                                            id_produk   LIKE  '%$nama_dicari%'";
+  $nama_dicari = $_POST["keyword"];
+  $tampil = "SELECT * FROM tb_produk WHERE gambar      LIKE '%$nama_dicari%' OR
+                                          nama        LIKE '%$nama_dicari%' OR
+                                          harga       LIKE '%$nama_dicari%' OR
+                                          stok        LIKE '%$nama_dicari%' OR
+                                          desk        LIKE '%$nama_dicari%' OR
+                                          kategori    LIKE '%$nama_dicari%' OR
+                                          id_produk   LIKE  '%$nama_dicari%'";
 }
 ?>  
 <!DOCTYPE html>

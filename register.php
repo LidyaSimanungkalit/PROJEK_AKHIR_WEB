@@ -36,7 +36,7 @@ date_default_timezone_set('asia/makassar');
                     <i class="fa-solid fa-lock icon"></i>
                     <input class="input-field" type="password" name="konfirmasi" class="input" placeholder="Konfirmasi password" required>
                 </div>
-                <input type="hidden" name="tanggalBuat" value=<?= date("d/m/Y h:i:a")?>>                
+                <input type="hidden" name="tanggalBuat" value=<?= date("d/m/Y")?>>                
                 <label> <input class="input-field"type="checkbox" checked="checked" name="remember" required        > Bersedia Memenuhi Persyaratan? </label><br>
               
                 <input type="submit" name="registrasi" class="submit" value="Daftar "><br><br>
@@ -52,11 +52,6 @@ date_default_timezone_set('asia/makassar');
 </html>
 
 
-<?php
-    require 'koneksi.php';
-    $tampil = "SELECT max(id_user) as maxKode FROM tb_user";
-
-?>
 
 
 <?php

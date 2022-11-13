@@ -66,7 +66,7 @@
             <td><?php echo $data ['email']?></td>
             <td><?php echo $data ['tgl']?></td>
             <td>
-              <a href="hapus_produk.php?id_user=<?php echo $data ?>">
+              <a href="hapus_user.php?id_user=<?php echo $data ['id_user']?>">
               <i class="fa-solid fa-trash"></i></a>
             </td>
         </tr>

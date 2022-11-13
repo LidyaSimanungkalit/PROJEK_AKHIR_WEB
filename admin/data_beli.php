@@ -47,7 +47,6 @@
         <button  class="create" type="submit" name="cari"><i class="fas fa-search"></i> Cari Kata</button>
       </form>
     </div>
-    <a href="add_produk.php"><button class="tambah" ><i class="fa-solid fa-plus"></i> Tambah Data</button></a>
     <p class="info">Data Produk</p>
     <table>
         <tr>

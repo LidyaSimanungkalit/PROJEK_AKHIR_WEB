@@ -1,26 +1,20 @@
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+const pass_field2 = document.getElementById("password");
+const show_btn2 = document.getElementById("mata");
+show_btn2.addEventListener("click", function(){
+if(pass_field2.type === "password"){
+    pass_field2.type = "text";
+    show_btn2.classList.add("hide");
+}else{
+    pass_field2.type = "password";
+    show_btn2.classList.remove("hide");
 }
+});
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
+
+
+
+
+
+
+

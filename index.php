@@ -31,7 +31,7 @@
     }
     ?>
     
-    <li><a href="keranjang.php">About</a></li>
+    <li><a href="about.php">About</a></li>
     <li><a href="keranjang.php">Keranjang</a></li>
     <img class ="logo" src="img/cel.png" alt="gambarnya logonya" width="200px">
     </ul> 
@@ -62,6 +62,7 @@
             <li><a href="https://wa.me/6281254424739"><i class="fa1 fas fa-phone"></i> Contact</a></li>
             <li><a href="https://twitter.com/Cnoxerr12345"><i class="fa1 fa-brands fa-twitter"></i> Twiter</a></li>
             <li><a href="https://www.instagram.com/ash4rr/"><i class="fa1 fa-brands fa-instagram"></i> Instagram</a></li>
+            <img class ="logo2" src="img/vel.png" alt="gambarnya logonya"   width="200px">
         </ul>
     </div>
 </div>
@@ -84,6 +85,10 @@ body{
 }
 .logo{
     margin-top: -30px;
+    margin-left:12px;
+}
+.logo2{
+    margin-top: 25px;
     margin-left:12px;
 }
 .container-card{

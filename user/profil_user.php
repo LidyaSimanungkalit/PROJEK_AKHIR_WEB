@@ -6,6 +6,8 @@
     if (!isset($_SESSION['username'])) {
         header("Location: ..\login.php");}
 
+    
+
 
     $US = $_SESSION['id_user'];
 
@@ -143,6 +145,140 @@ font-size: 16px;
 margin-left:-34px;
 margin-top:25px;
 cursor: pointer;
-
 }
-    </style>
+
+@media (min-width: 627px) {
+    .keluar{
+    padding-right: 82px;
+    font-size:22px;
+    margin-top:-4.5px;
+    }
+}
+
+@media (min-width: 1021px) {
+    .keluar{
+    padding-right:17px;
+    font-size:22px;
+    margin-top:-4.5px;
+    }
+}
+
+@media (min-width: 528px) {
+    .ubah{
+    background-color: #4CAF50; 
+    border: 4px;
+    color: white;
+    padding: 12px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:105px;
+    margin-top:25px;
+    cursor: pointer;
+    }
+}
+@media (min-width: 495px) {
+    .ubah{
+    background-color: #4CAF50; 
+    border: 4px;
+    color: white;
+    padding: 12px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:90px;
+    margin-top:25px;
+    cursor: pointer;
+    }
+}
+@media (min-width: 1021px) {
+    .ubah{
+    background-color: #4CAF50; 
+    border: 4px;
+    color: white;
+    padding: 12px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:220px;
+    margin-top:25px;
+    cursor: pointer;
+    }
+}
+
+@media (min-width: 1010px) {
+    .ubah{
+    background-color: #4CAF50; 
+    border: 4px;
+    color: white;
+    padding: 12px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:220px;
+    margin-top:25px;
+    cursor: pointer;
+    }
+}
+@media (min-width: 1001px) {
+    .ubah{
+    background-color: #4CAF50; 
+    border: 4px;
+    color: white;
+    padding: 12px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:220px;
+    margin-top:25px;
+    cursor: pointer;
+    }
+    .keluar{
+    padding-right:17px;
+    font-size:22px;
+    margin-top:-4.5px;
+    }
+}
+
+@media (min-width: 1010px) {
+    .ubah{
+    background-color: #4CAF50; 
+    border: 4px;
+    color: white;
+    padding: 12px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:301px;
+    margin-top:25px;
+    cursor: pointer;
+    }
+}
+/* @media (min-width: 1187px) {
+    .ubah{
+    background-color: #4CAF50; 
+    border: 4px;
+    color: white;
+    padding: 12px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:261px;
+    margin-top:25px;
+    cursor: pointer;
+    }
+    .keluar{
+    padding-right:17px;
+    font-size:22px;
+    margin-top:-4.5px;
+    }
+} */
+
+</style>
